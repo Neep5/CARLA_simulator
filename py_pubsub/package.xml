@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>py_pubsub</name>
+  <version>0.0.0</version>
+  <description>Examples of minimal publisher/subscriber using rclpy</description>
+  <maintainer email="you@example.com">u</maintainer>
+  <license>Apache License 2.0</license>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>rclpy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>numpy</build_depend>
+  <build_depend>numba</build_depend>
+  <build_depend>torchvision</build_depend>
+  <build_depend>opencv-python</build_depend>
+  <build_depend>filterpy</build_depend>
+  <build_depend>ultralytics</build_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>numpy</exec_depend>
+  <exec_depend>numba</exec_depend>
+  <exec_depend>torchvision</exec_depend>
+  <exec_depend>opencv-python</exec_depend>
+  <exec_depend>filterpy</exec_depend>
+  <exec_depend>ultralytics</exec_depend>
+  <exec_depend>onnxruntime</exec_depend>
+  
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
+
